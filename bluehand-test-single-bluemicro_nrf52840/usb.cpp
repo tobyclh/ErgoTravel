@@ -95,7 +95,7 @@ void usb_sendMediaKey(uint16_t keycode)
 }
 
 
-#define MOVE_STEP    1
+#define MOVE_STEP    4
 void usb_sendMouseKey(uint16_t keycode)
 {
   #ifdef TINYUSB_AVAILABLE

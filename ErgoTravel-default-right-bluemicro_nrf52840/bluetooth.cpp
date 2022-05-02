@@ -632,7 +632,7 @@ void bt_sendKeys(HIDKeyboard currentReport)
 
 /**************************************************************************************************************************/
 #ifndef MOVE_STEP
-  #define MOVE_STEP   8
+  #define MOVE_STEP   4
 #endif
 void bt_sendMouseKey(uint16_t keycode)
 {
